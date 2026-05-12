@@ -1,3 +1,4 @@
+```Mermaid
 graph LR
     Prof((교수))
 
@@ -12,3 +13,4 @@ graph LR
 
     UC_Input -. "&lt;&lt;include&gt;&gt;" .-> UC_Auth
     UC_Inquire -. "&lt;&lt;include&gt;&gt;" .-> UC_Auth
+```
