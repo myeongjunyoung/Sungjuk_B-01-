@@ -16,7 +16,7 @@ classDiagram
         - 평균 : int
         - 학점 : String
         + 성적입력(교수id:String, 학생id:String, 자바:int, DB:int, 보안:int) : void
-        + 학점조회(교수id:String, 학점:String) : boolean
+        + 학점조회(교수id:String, 학생:id) : boolean
     }
 
     class Add_Sungjuk_UI {
