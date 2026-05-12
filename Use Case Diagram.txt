@@ -11,6 +11,6 @@ graph LR
     Prof --> UC_Input
     Prof --> UC_Inquire
 
-    UC_Input -. "&lt;&lt;include&gt;&gt;" .-> UC_Auth
-    UC_Inquire -. "&lt;&lt;include&gt;&gt;" .-> UC_Auth
+    UC_Input -. "<<include>>" .-> UC_Auth
+    UC_Inquire -. "<<include>>" .-> UC_Auth
 ```
